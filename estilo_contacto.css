@@ -1,0 +1,46 @@
+
+:root {
+    font-size: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+header {
+    background-color:#023047;
+    padding: 10px;
+    text-align: center;
+
+    
+ 
+}
+
+nav,a{
+    color: white;
+}
+form{
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+   
+}
+
+div,p{
+    margin: 0.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #00171f;
+    color: white; 
+}
+ 
+
+a {
+    text-decoration: none;
+}
