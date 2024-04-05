@@ -4,40 +4,83 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+*{
+        box-sizing: border-box;
+}
 
-header {
+.contenedorLogo{
+    width: 20%;
+    height: 80%;
+}
+ .contenedorLogo img{
+    height: 100%;
+    float: left;
+
+}
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+}
+
+
+
+
+.encabezado{
     background-color:#023047;
     padding: 10px;
-    text-align: center;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0; /*posiciona el encabezado arriba*/
+    z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
 
-    
- 
 }
 
 nav,a{
     color: white;
 }
+
+ a:hover{
+    color: blue;
+    background-color: orange;
+    transform: scale(1.1); /* Transición suave para el efecto */
+}
+
 form{
     width: 70%;
     margin: auto;
     border-radius: 5px;
+    margin-top: 40px;
+
+}
+
+main{
+    margin-top: 120px;
 }
 
  *{
     margin: 0;
     padding: 0;
-   
 }
 
-div,p{
-    margin: 0.5rem;
+.direccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #00171f;
     color: white; 
+    text-align: center;
 }
  
 
