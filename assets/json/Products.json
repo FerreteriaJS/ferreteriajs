@@ -1,0 +1,63 @@
+[
+    {
+      "code": "1",
+      "image": "assets/img/organizador.webp",
+      "name": "Organizador",
+      "price": 46000
+    },
+    {
+      "code": "2",
+      "image": "assets/img/escurreplatos.webp",
+      "name": "Escurreplatos",
+      "price": 39000
+    },
+    {
+      "code": "3",
+      "image": "assets/img/tacho.webp",
+      "name": "Tacho de basura",
+      "price": 60000
+    },
+    {
+      "code": "4",
+      "image": "assets/img/masilla.webp",
+      "name": "Masilla selladora",
+      "price": 135000
+    },
+    {
+      "code": "5",
+      "image": "assets/img/bandeja pintor.webp",
+      "name": "Bandeja pintor",
+      "price": 3600
+    },
+    {
+      "code": "6",
+      "image": "assets/img/manguera.webp",
+      "name": "Manguera",
+      "price": 74000
+    },
+    {
+      "code": "7",
+      "image": "assets/img/pelacable industrial.webp",
+      "name": "Pelacable Industrial",
+      "price": 16300
+    },
+    {
+      "code": "8",
+      "image": "assets/img/llave.webp",
+      "name": "Llave de impacto 20V",
+      "price": 343800
+    },
+    {
+      "code": "9",
+      "image": "assets/img/llana.webp",
+      "name": "Llana Yesero N° 16",
+      "price": 15700
+    },
+    {
+      "code": "10",
+      "image": "assets/img/pala forjada.webp",
+      "name": "Pala Forjada",
+      "price": 52400
+    }
+  ]
+  

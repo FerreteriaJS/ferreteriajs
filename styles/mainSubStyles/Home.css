@@ -1,0 +1,19 @@
+@import './mainSubStyles/Carousel.css';
+.main-home{
+    padding: 5% 0%;
+}
+
+.main-home > *{
+    margin: 0% 2%;
+}
+
+#main-home-carousel{
+    display: flex;
+    justify-content: center;
+    padding: 2% 25%;
+}
+
+.main-home h4{
+    border-bottom: 1px solid #023047;
+    margin-top: 2%;
+}
