@@ -1,0 +1,22 @@
+
+
+#header-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 1% 0;
+}
+
+p.header-btn{
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+}
+p.header-btn:hover{
+    box-shadow: 0 0 15px 0 #FFF;
+    background-color: #02304799;
+}
+

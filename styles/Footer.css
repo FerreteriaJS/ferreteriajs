@@ -1,0 +1,44 @@
+
+footer {
+    background-color: #023047;
+    bottom: 0;
+    padding-top: 1%;
+    padding-bottom: 0;
+    color: #FFF;
+    width: 100%;
+}
+
+#footer-cont,
+.no-map{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#footer-cont > div,
+.no-map > div{
+    margin-left: 1%;
+    margin-right: 4%;
+    width: 45%;
+}
+
+
+
+
+
+/* Cargamos 5 medias queries para adaptar el footer a diferentes tamaños de pantalla */
+@media screen and (min-width: 576px) {
+    #footer-cont{
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 576px) {
+    #footer-cont{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #footer-cont > div,
+    .no-map > div{
+        width: 100%;
+    }
+}

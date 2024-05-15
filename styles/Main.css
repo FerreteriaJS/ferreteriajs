@@ -1,0 +1,7 @@
+@import './mainSubStyles/Products.css';
+@import './mainSubStyles/Home.css';
+
+main {
+    background-color: #8ecae660;
+    height: 100%;
+}

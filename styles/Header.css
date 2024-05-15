@@ -1,0 +1,23 @@
+/*
+@import 'headerSubStyles/HeaderLogo.css';
+*/
+@import 'headerSubStyles/HeaderNavigationBar.css';
+header {
+    background-color: #023047;
+    top: 0;
+    color: #FFF;
+    margin: 0;
+}
+
+#header-logo{
+    margin-top: 1%;
+    height: 90%;
+}
+#header-navigation{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 10%;
+}
+
+
+
