@@ -5,15 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="./estilo_contacto.css">
 </head>
 
 <body>
-    <!--  <fieldset>
-        <legend>Dejanos tu mensaje</legend>
-        Nombre: <input type="text">
-        Apellido: <input type="text">
-        Telefono: <input type="text">
-    </fieldset> -->
+    
+        <header class="encabezado">
+            
+            <div class="contenedorLogo">
+                <img src="assets/img/logo1.png" alt="logo"></img>
+            </div>
+
+            <div class="botones"> 
+                <nav>
+                    <b><a href="./productos.html">PRODUCTOS</a></b>
+                    <span style="margin-right: 20px;"></span>
+                    <b><a href="./contacto.html">CONTACTO</a></b>
+                </nav>
+            </div>
+
+        </header>
+    
+   
     <main>
 
         <form action="" method="get" name="consulta">
@@ -31,7 +44,7 @@
                 <br>
                 <div>
                     <label for="tel">Telefono: </label>
-                    <input type="tel " id="tel" name="tel">
+                    <input type="tel" id="tel" name="tel">
                 </div>
                 <br>
                 <div>
@@ -39,16 +52,24 @@
                     <input type="email" id="email" name="email" required>
                 </div>
                 <br> 
-                Mensaje: <textarea name="comentario" id="" cols="30" rows="10" > </textarea>
+                Mensaje: <textarea name="comentario" id="comentario" cols="30" rows="10" > </textarea>
 
                 <br>
                 <br>
                 <button>Enviar</button>
             </fieldset>
         </form>
-
+<div class="direccion">
+    <p>Direccion: Amadeo Sabattini 4648</p>
+    <p>Tel: 0351-4981234</p>
+    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.03720667236!2d-64.12930103016356!3d-31.43756950061196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432bd2167a27edb%3A0xf1605b07b6a9b2f4!2sArco%20De%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1711492368803!5m2!1ses!2sar" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
     </main>
+
+    <footer>
+        <p>&copy; 2024 Codo a Codo - Ferreteria JS</p>
+    </footer>
 </body>
 
 </html>
