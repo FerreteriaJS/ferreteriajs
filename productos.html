@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ferreteria JS</title>
     <link rel="stylesheet" href="estilos_productos.css">
-
+    <script src="https://kit.fontawesome.com/233f98fd04.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -31,112 +31,172 @@
             <div>
                 <h2>Productos</h2>
                 <hr>
-            </div>
-            <section class="categorias">
-
-                <div>
-                    <h3> Categorias</h3><hr>
+                <div class="contenedor-buscador">
+                    <div><input class="buscar" type="search" placeholder="Buscar" />
+                        <span type="button" class="icono"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
                 </div>
+            </div>
+            <div class="contenedor-categorias">
+                <section class="categorias">
 
-                <ul>
-                    <li> <a href="#">Todos los productos</a></li>
-                    <li><a href="#">Construcción</a></li>
-                    <li><a href="#">Herramientas</a></li>
-                    <li><a href="#">Hogar y Jardin</a></li>
-                </ul>
-            </section>
+                    <div>
+                        <h3> Categorias</h3>
+                        <hr>
+                    </div>
+
+                    <ul>
+                        <li> <a href="productos.html">Todos los productos</a></li>
+                        <li><a href="productos.html">Construcción</a></li>
+                        <li><a href="productos.html">Herramientas</a></li>
+                        <li><a href="productos.html">Hogar y Jardin</a></li>
+                    </ul>
+                </section>
+            </div>
+            <section class="body-productos">
+                <div class="mostrador">
+                    <div class="fila">
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/organizador.webp" alt="Organizador">
+                                <p class="descripcion">Organizador</p>
+                                <span>$46000</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/escurreplatos.webp" alt="Escurreplatos">
+                                <p class="descripcion">Escurreplatos</p>
+                                <span>$39000</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/pala forjada.webp" alt="">
+                                <p class="descripcion">Pala Forjada</p>
+                                <span>$52400</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/guante.webp" alt="">
+                                <p class="descripcion">Guantes Anti-Shock</p>
+                                <span>$65600</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/tacho.webp" alt="Tacho de basura">
+                                <p class="descripcion">Tacho de basura</p>
+                                <span>$60000</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/masilla.webp" alt="Masilla selladora">
+                                <p class="descripcion">Masilla selladora</p>
+                                <span>$135000</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/bandeja pintor.webp" alt="">
+                                <p class="descripcion">Bandeja pintor</p>
+                                <span>$3600</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/manguera.webp" alt="">
+                                <p class="descripcion">Manguera</p>
+                                <span>$74000</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/pelacable industrial.webp" alt="">
+                                <p class="descripcion">Pelacable Industrial</p>
+                                <span>$16300</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/llave.webp" alt="">
+                                <p class="descripcion">Llave de impacto 20V</p>
+                                <span>$343800</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/llana.webp" alt="">
+                                <p class="descripcion">Llana Yesero N° 16</p>
+                                <span>$15700</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contenedor-producto">
+                                <img src="assets/img/caloventor.webp" alt="">
+                                <p class="descripcion">Caloventor Eléctrico</p>
+                                <span>$25000</span><br>
+                                <button class="boton">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
-        <section class="body-productos">
-            <div class="mostrador">
-                <div class="fila">
-                    <div class="item">
-                        <div class="contenedor-producto">
-                            <img src="assets/img/organizador.webp" alt="Organizador">
-                            <p class="descripcion">Organizador</p>
-                            <span>$46000</span><br>
-                            <button class="boton">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="contenedor-producto">
-                            <img src="assets/img/escurreplatos.webp" alt="Escurreplatos">
-                            <p class="descripcion">Escurreplatos</p>
-                            <span>$39000</span><br>
-                            <button class="boton">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="contenedor-producto">
-                            <img src="assets/img/tacho.webp" alt="Tacho de basura">
-                            <p class="descripcion">Tacho de basura</p>
-                            <span>$60000</span><br>
-                            <button class="boton">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="contenedor-producto">
-                            <img src="assets/img/masilla.webp" alt="Masilla selladora">
-                            <p class="descripcion">Masilla selladora</p>
-                            <span>$135000</span><br>
-                            <button class="boton">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="contenedor-producto">
-                            <img src="assets/img/bandeja pintor.webp" alt="">
-                            <p class="descripcion">Bandeja pintor</p>
-                            <span>$3600</span><br>
-                            <button class="boton">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="contenedor-producto">
-                            <img src="assets/img/manguera.webp" alt="">
-                            <p class="descripcion">Manguera</p>
-                            <span>$74000</span><br>
-                            <button class="boton">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="contenedor-producto">
-                            <img src="assets/img/pelacable industrial.webp" alt="">
-                            <p class="descripcion">Pelacable Industrial</p>
-                            <span>$16300</span><br>
-                            <button class="boton">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="contenedor-producto">
-                            <img src="assets/img/llave.webp" alt="">
-                            <p class="descripcion">Llave de impacto 20V</p>
-                            <span>$343800</span><br>
-                            <button class="boton">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="contenedor-producto">
-                            <img src="assets/img/llana.webp" alt="">
-                            <p class="descripcion">Llana Yesero N° 16</p>
-                            <span>$15700</span><br>
-                            <button class="boton">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="contenedor-producto">
-                            <img src="assets/img/pala forjada.webp" alt="">
-                            <p class="descripcion">Pala Forjada</p>
-                            <span>$52400</span><br>
-                            <button class="boton">Comprar</button>
-                        </div>
-                    </div>
-                    
-                </div>
+        <div class="contenedor-promo">
+            <div class="cajas-promo">
+                <img src="assets/img/pago cuotas.webp" alt="">
             </div>
+            <div class="cajas-promo">
+                <img src="assets/img/entregas.webp" alt="">
+            </div>
+            <div class="cajas-promo">
+                <img src="assets/img/sucursales.webp" alt="">
+            </div>
+        </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Codo a Codo - Ferreteria JS</p>
+        <div>
+        <div class="cont-footer"><div class="col-izq"><h5>Navegación</h5>
+            <li> <a href="#">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Pregúntas frecuentes</a></li></div>
+        <div class="col-med"><h5>Contactános</h5>
+            <div class="telefono">
+                <i class="fa fa-phone"></i>
+                <p>0351-4981234</p>
+              </div>
+            <div class="direccion">
+                <i class="fa fa-map-marker"></i>
+                <p>Amadeo Sabattini 4648,<br>Córdoba.</p>
+              </div>
+              <div class="email">
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:ventas@ferreteriajs.com">ventas@ferreteriajs.com</a></p>
+              </div>
+            </div>
+        <div class="col-der"><h5>Redes Sociales</h5>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+        </div>
+    </div>
+        <div class="copy"><p>&copy; 2024 Codo a Codo - Ferreteria JS</p></div>
     </footer>
 </body>
 
