@@ -1,30 +1,27 @@
-<form action="" method="get" name="consulta">
-    <fieldset>
-        <legend>Dejanos tu consulta</legend>
-        <div>
-            <label for="nombre">Nombre: </label>
-            <input type="text" id="nombre" name="nombre" required>
-        </div>
-        <br>
-        <div>
-            <label for="Apellido">Apellido: </label>
-            <input type="text" id="Apellido" name="Apellido" required>
-        </div>
-        <br>
-        <div>
-            <label for="tel">Telefono: </label>
-            <input type="tel" id="tel" name="tel">
-        </div>
-        <br>
-        <div>
-            <label for="email">Email: </label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <br> 
-        Mensaje: <textarea name="comentario" id="comentario" cols="30" rows="10" > </textarea>
-
-        <br>
-        <br>
-        <button>Enviar</button>
-    </fieldset>
+<form class="contact-form" action="" >
+    <div class="mb-3">
+        <!-- Nombre -->
+        <label for="firstNameInput" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="firstNameInput" placeholder="Nombre">
+    </div>
+    <div class="mb-3">
+        <!-- Apellido -->
+        <label for="lastNameInput" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="lastNameInput" placeholder="Apellido">
+    </div>
+    <div class="mb-3">
+        <!-- Telefono -->
+        <label for="phoneInput" class="form-label">Telefono</label>
+        <input type="tel" class="form-control" id="phoneInput" placeholder="Telefono">
+    </div>
+    <div class="mb-3">
+        <!-- Email -->
+        <label for="emailInput" class="form-label">Email</label>
+        <input type="email" class="form-control" id="emailInput" placeholder="Email">
+    </div>
+    <div class="mb-3">
+        <!-- Mensaje -->
+        <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
 </form>

@@ -42,6 +42,21 @@ function handleClick(event) {
     // navegamos a la ruta del boton
     window.location.href = path;
 }
-
+async function loadSocialNetworksIcons(){
+    let response = await fetch('../../assets/json/SocialNetworks.json');
+    const footerSocialNets = await response.json();
+    const footerSocialIconContainer = document.getElementById('social-net');
+    
+    response = await fetch('../../components/footer-components/SocialNetIcon.html');
+    const templateIconHTML = await response.text();
+    const iconsHTML = [];
+    
+    footerSocialNets.forEach(sIcon => {
+        const iconHTML = templateIconHTML.replace('{path}', sIcon.path).replace('{name}', sIcon.name).replace('{url}',sIcon.url);
+        iconsHTML.push(iconHTML);
+    });
+    footerSocialIconContainer.innerHTML = iconsHTML.join('');
+}
 // cargamos los botones de navegacion
-loadHeaderNavButtons();
+loadFooterNavButtons();
+loadSocialNetworksIcons();

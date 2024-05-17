@@ -1,5 +1,6 @@
 @import './mainSubStyles/Products.css';
 @import './mainSubStyles/Home.css';
+@import './mainSubStyles/Contact.css';
 
 main {
     background-color: #8ecae660;

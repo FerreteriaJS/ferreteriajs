@@ -24,6 +24,10 @@ async function loadFooter() {
     const footerHTML = await response.text();
     const footerElement = document.getElementsByTagName('footer')[0];
     footerElement.innerHTML = footerHTML;
+    const scriptFooter = document.createElement('script');
+    scriptFooter.src = './behaviours/Footer.js';
+    scriptFooter.type = 'module';
+    document.body.appendChild(scriptFooter);
     
 }
 /*
