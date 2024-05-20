@@ -1,4 +1,6 @@
 [
-    {"name": "oferta1", "source": "assets/img/oferta1.webp"},
-    {"name": "oferta2", "source": "assets/img/oferta2.webp"}
+    {"name": "portada1", "source": "assets/img/portada1.webp"},
+    {"name": "portada2", "source": "assets/img/portada2.webp"},
+    {"name": "portada3", "source": "assets/img/portada1.webp"},
+    {"name": "portada4", "source": "assets/img/portada4.webp"}
 ]

@@ -24,8 +24,25 @@ footer {
 
 
 
+#footer-nav-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
 
 
+
+
+#footer-copyr {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #012a3d;
+    margin-top: 10px;
+}
+
+#social-net{
+    margin-top: 20px;
+}
 /* Cargamos 5 medias queries para adaptar el footer a diferentes tamaños de pantalla */
 @media screen and (min-width: 576px) {
     #footer-cont{
