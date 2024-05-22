@@ -22,14 +22,7 @@
     <div class="mb-3">
         <!-- Motivo de la consulta (Select) -->
         <label for="selectInput" class="form-label">Motivo de la consulta</label>
-        <select class="form-control" id="selectInput">
-            <option value="selecion">Selecciona una opción</option>
-            <option value="consulta_general">Consulta General</option>
-            <option value="soporte_tecnico">Soporte Técnico</option>
-            <option value="ventas">Ventas</option>
-            <option value="reclamos">Reclamos</option>
-            <option value="otros">Otros</option>
-        </select>
+        <select class="form-control" id="selectInput"></select>
     </div>
     <div class="mb-3">
         <!-- Mensaje -->
@@ -45,8 +38,7 @@
             </label>
         </div>
     </div>
-
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    <button type="submit" class="btn btn-primary" onclick="CustomSubmitForm()">Enviar</button>
     
 </form>
 
