@@ -1,12 +1,37 @@
 [
     {
         "id": "1",
-        "name" : "COMO DESMONTAR Y ARREGLAR GRIFOS MODERNOS Y ANTIGUOS. LIMPIAR, LUBRICAR, SUSTITUIR JUNTAS O CUERITO.",
-        "author" : "https://www.youtube.com/@ElFontaneroenCasa",
-        "video" : "https://www.youtube.com/watch?v=O1Za22Y1nCo",
-        "iframe" : "<iframe src=\"https://www.youtube.com/embed/O1Za22Y1nCo?si=3Ph3fKyFdobMfgSN\" title=\"YouTube video player\" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
+        "author" : "El Fontanero en Casa",
+        "name": "COMO DESMONTAR Y ARREGLAR GRIFOS MODERNOS Y ANTIGUOS. LIMPIAR, LUBRICAR, SUSTITUIR JUNTAS O CUERITO.",
+        "video": "https://www.youtube.com/watch?v=O1Za22Y1nCo",
+        "iframe": "<iframe class=\"tutorial-vid\" src=\"https://www.youtube.com/embed/O1Za22Y1nCo?si=3Ph3fKyFdobMfgSN\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
     },
     {
-        ...
+        "id": "2",
+        "author" : "Tesorodeideas",
+        "name": "Tipos de tornillos",
+        "video": "https://www.youtube.com/watch?v=O1Za22Y1nCo",
+        "iframe": "<iframe class=\"tutorial-vid\" src=\"https://www.youtube.com/embed/EHViiJCInQc?si=cRt2GjPVfQhde32V\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "id": "3",
+        "author" : "Toga Art Academy",
+        "name": "TIPOS DE BROCAS ¡No Más Dudas! ✅ Aprende cómo taladrar metal, hormigón, vidrio, madera",
+        "video": "https://www.youtube.com/watch?v=OyHYHBYHpcg",
+        "iframe": "<iframe class=\"tutorial-vid\" src=\"https://www.youtube.com/embed/OyHYHBYHpcg?si=Dlc_wFqqbtmR1zlh\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "id": "4",
+        "author" : "Toga Art Academy",
+        "name": "Cómo QUITAR ÓXIDO (Fácil y Efectivo) ¡Sin dañar el metal! ✅ Limpiar oxidación rápido y barato",
+        "video": "https://www.youtube.com/watch?v=87lT7IwbLQA",
+        "iframe": "<iframe class=\"tutorial-vid\" src=\"https://www.youtube.com/embed/87lT7IwbLQA?si=YliQiviz74dFo8Sa\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "id": "5",
+        "author" : "Bricocrack",
+        "name": "Curso de Pintura 10: cómo se pinta con rodillo (Bricocrack)",
+        "video": "https://www.youtube.com/watch?v=eV-M9ju9bMk",
+        "iframe": "<iframe class=\"tutorial-vid\" src=\"https://www.youtube.com/embed/eV-M9ju9bMk?si=HJbnNeQnABLv-zkl\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
     }
 ]

@@ -56,7 +56,20 @@ async function loadSocialNetworksIcons(){
         iconsHTML.push(iconHTML);
     });
     footerSocialIconContainer.innerHTML = iconsHTML.join('');
+
+    response = await fetch('../../assets/json/NavigationButtons.json');
+    const footerNavButtons = await response.json();
+    const footerNavElement = document.getElementById('footer-nav-container');
+    response = await fetch('../../components/footer-components/FooterButton.html');
+    const templateButtonHTML = await response.text();
+    const buttonsHTML = [];
+    
+    footerNavButtons.forEach(button => {
+        const buttonHTML = templateButtonHTML.replace('{path}', button.path).replace('{name}', button.name).replace('pathString', "\'" + button.path + "\'");
+        buttonsHTML.push(buttonHTML);
+    });
+    footerNavElement.innerHTML = buttonsHTML.join('');
 }
 // cargamos los botones de navegacion
-loadFooterNavButtons();
+
 loadSocialNetworksIcons();
