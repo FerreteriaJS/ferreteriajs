@@ -58,5 +58,5 @@ async function loadSocialNetworksIcons(){
     footerSocialIconContainer.innerHTML = iconsHTML.join('');
 }
 // cargamos los botones de navegacion
-loadFooterNavButtons();
+
 loadSocialNetworksIcons();
