@@ -6,6 +6,7 @@ footer {
     padding-bottom: 0;
     color: #FFF;
     width: 100%;
+    
 }
 
 #footer-cont,
@@ -13,6 +14,7 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
+  
 }
 
 #footer-cont > div,
@@ -20,12 +22,51 @@ footer {
     margin-left: 1%;
     margin-right: 4%;
     width: 45%;
+
 }
 
 
 
+#footer-nav-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
 
 
+.footer-nav, .footer-contacto {
+    margin: 10px 0;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    margin: 5px 0;
+}
+
+.footer-nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+#footer-copyr {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #012a3d;
+    margin-top: 10px;
+}
+
+#social-net{
+    margin-top: 20px;
+}
 /* Cargamos 5 medias queries para adaptar el footer a diferentes tamaños de pantalla */
 @media screen and (min-width: 576px) {
     #footer-cont{
