@@ -83,3 +83,17 @@ footer {
         width: 100%;
     }
 }
+
+
+#footer-nav-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-nav-container p{
+    text-align: start;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 2% 0;
+    color: #FFF;
+}
