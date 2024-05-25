@@ -125,15 +125,18 @@ button:hover {
 
 
 #tutorials-container {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+
 .tutorial-vid{
+    width: 30%;
+    height: 300px;
     display: flex;
-    flex-direction: column;
     margin: 1%;
     padding: 1%;
     border-radius: 0.25rem;
@@ -146,4 +149,10 @@ button:hover {
 .tuto-title{
     margin: 0 2%;
     margin-top: 2%;
+}
+
+@media (max-width: 768px) {
+    .tutorial {
+        width: 100%; /* En pantallas más pequeñas, los videos ocupan todo el ancho */
+    }
 }
