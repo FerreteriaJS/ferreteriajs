@@ -33,5 +33,12 @@
         "name": "Curso de Pintura 10: cómo se pinta con rodillo (Bricocrack)",
         "video": "https://www.youtube.com/watch?v=eV-M9ju9bMk",
         "iframe": "<iframe class=\"tutorial-vid\" src=\"https://www.youtube.com/embed/eV-M9ju9bMk?si=HJbnNeQnABLv-zkl\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "id": "6",
+        "author" : "ArkiLudus",
+        "name": "Cómo REPARAR la PINTURA de una PARED HÚMEDA- caso GRAVE rotura de tubería. (ESTUCO Y PINTURA)",
+        "video": "https://www.youtube.com/watch?v=Ra1pq2JbK98&t=6s",
+        "iframe": "<iframe class=\"tutorial-vid\" src=\"https://www.youtube.com/embed/Ra1pq2JbK98?si=IZv45yYotOzX7xwr\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
     }
 ]
