@@ -2,5 +2,6 @@
     { "name": "Inicio", "path": "Home" },
     { "name": "Productos", "path": "Products" },
     { "name": "Tutoriales", "path": "Tutorials" },
-    { "name": "Contacto", "path": "Contact" }
+    { "name": "Contacto", "path": "Contact" },
+    { "name": "Carrito", "path": "Cart" }
 ]

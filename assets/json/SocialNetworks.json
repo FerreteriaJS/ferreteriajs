@@ -1,18 +1,7 @@
 [
     {
-        "name": "Whatsapp",
-        "url": "https://web.whatsapp.com/",
-        "path": "assets/img/whatsapp.svg"
-    },
-    {
         "name": "Facebook",
         "url": "https://www.facebook.com/",
-        "path": "assets/img/facebook.svg"
-    },
-    {
-        "name": "Instagram",
-        "url": "https://www.instagram.com/",
-        "path": "assets/img/instagram.svg"
+        "path": "assets/img/react.svg"
     }
-
 ]
