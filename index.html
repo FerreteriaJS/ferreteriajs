@@ -28,6 +28,27 @@
             }
             window.location.reload();
         }
+        async function CustomSubmitForm() {
+            const form = document.getElementById('form');
+            const formElements = form.elements;
+            let formIsValid = true;
+            let i = 0;
+            while (i < formElements.length -1 && formIsValid) {
+                formIsValid = formElements[i].value !== '';
+                if (formElements[i].id === 'selectInput'){
+                    formIsValid = formElements[i].value !== 'selecion';
+                }
+                if (formElements[i].id === 'subscribeCheckbox'){
+                    formIsValid = true;
+                }
+                i++;
+            }
+            if (formIsValid) {
+                alert('Formulario enviado correctamente');
+            } else {
+                alert('Por favor complete todos los campos');
+            }
+        }
         
 
         window.onload = () => {

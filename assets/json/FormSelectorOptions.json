@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Selecciona una opción",
+        "value": "selecion"
+    },
+    {
+        "id": 2,
+        "name": "Consulta General",
+        "value": "consulta_general"
+    },
+    {
+        "id": 3,
+        "name": "Soporte Técnico",
+        "value": "soporte_tecnico"
+    },
+    {
+        "id": 4,
+        "name": "Ventas",
+        "value": "ventas"
+    },
+    {
+        "id": 5,
+        "name": "Reclamos",
+        "value": "reclamos"
+    },
+    {
+        "id": 6,
+        "name": "Otros",
+        "value": "otros"
+    }
+]
